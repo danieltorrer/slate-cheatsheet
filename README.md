@@ -4,8 +4,9 @@ A quick reference for common actions in a [SlateJS](https://docs.slatejs.org/) E
 
 ## Quick ones
 
-To reset to a default block on enter:
+To reset to a given block on enter:
 ```
+const defaultBlock = 'paragraph';
 editor.splitBlock().setBlocks(defaultBlock);
 ```
 
