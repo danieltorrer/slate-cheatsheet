@@ -2,6 +2,18 @@
 
 A quick reference for common actions in a [SlateJS](https://docs.slatejs.org/) Editor.
 
+## Quick ones
+
+To reset to a default block on enter:
+```
+editor.splitBlock().setBlocks(defaultBlock);
+```
+
+Marks from current selection/cursor
+```
+editor.value.activeMarks
+```
+
 ## Commands
 
 ### Reset Block on Enter
