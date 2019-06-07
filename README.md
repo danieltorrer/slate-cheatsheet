@@ -10,6 +10,11 @@ const defaultBlock = 'paragraph';
 editor.splitBlock().setBlocks(defaultBlock);
 ```
 
+Split Block and convert new block to another type
+```
+editor.splitBlockAtRange(range).setBlocks('paragraph');
+```
+
 Marks from current selection/cursor
 ```
 editor.value.activeMarks
